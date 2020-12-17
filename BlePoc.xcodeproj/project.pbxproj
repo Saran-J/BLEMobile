@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FCA5BF725887A1F005B4F0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5BF625887A1F005B4F0E /* AppDelegate.swift */; };
+		0FCA5BFB25887A1F005B4F0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5BFA25887A1F005B4F0E /* ViewController.swift */; };
+		0FCA5BFE25887A1F005B4F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA5BFC25887A1F005B4F0E /* Main.storyboard */; };
+		0FCA5C0025887A21005B4F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA5BFF25887A21005B4F0E /* Assets.xcassets */; };
+		0FCA5C0325887A21005B4F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA5C0125887A21005B4F0E /* LaunchScreen.storyboard */; };
+		0FCA5C0E25887A21005B4F0E /* BlePocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5C0D25887A21005B4F0E /* BlePocTests.swift */; };
+		0FCA5C1925887A21005B4F0E /* BlePocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA5C1825887A21005B4F0E /* BlePocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FCA5C0A25887A21005B4F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCA5BEB25887A1F005B4F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCA5BF225887A1F005B4F0E;
+			remoteInfo = BlePoc;
+		};
+		0FCA5C1525887A21005B4F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCA5BEB25887A1F005B4F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCA5BF225887A1F005B4F0E;
+			remoteInfo = BlePoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FCA5BF325887A1F005B4F0E /* BlePoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlePoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCA5BF625887A1F005B4F0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FCA5BFA25887A1F005B4F0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FCA5BFD25887A1F005B4F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FCA5BFF25887A21005B4F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FCA5C0225887A21005B4F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FCA5C0425887A21005B4F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCA5C0925887A21005B4F0E /* BlePocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlePocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCA5C0D25887A21005B4F0E /* BlePocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePocTests.swift; sourceTree = "<group>"; };
+		0FCA5C0F25887A21005B4F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FCA5C1425887A21005B4F0E /* BlePocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlePocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCA5C1825887A21005B4F0E /* BlePocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePocUITests.swift; sourceTree = "<group>"; };
+		0FCA5C1A25887A21005B4F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FCA5BF025887A1F005B4F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCA5C0625887A21005B4F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCA5C1125887A21005B4F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCA5BEA25887A1F005B4F0E = {
+			isa = PBXGroup;
+			children = (
+				0FCA5BF525887A1F005B4F0E /* BlePoc */,
+				0FCA5C0C25887A21005B4F0E /* BlePocTests */,
+				0FCA5C1725887A21005B4F0E /* BlePocUITests */,
+				0FCA5BF425887A1F005B4F0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FCA5BF425887A1F005B4F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA5BF325887A1F005B4F0E /* BlePoc.app */,
+				0FCA5C0925887A21005B4F0E /* BlePocTests.xctest */,
+				0FCA5C1425887A21005B4F0E /* BlePocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FCA5BF525887A1F005B4F0E /* BlePoc */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA5BF625887A1F005B4F0E /* AppDelegate.swift */,
+				0FCA5BFA25887A1F005B4F0E /* ViewController.swift */,
+				0FCA5BFC25887A1F005B4F0E /* Main.storyboard */,
+				0FCA5BFF25887A21005B4F0E /* Assets.xcassets */,
+				0FCA5C0125887A21005B4F0E /* LaunchScreen.storyboard */,
+				0FCA5C0425887A21005B4F0E /* Info.plist */,
+			);
+			path = BlePoc;
+			sourceTree = "<group>";
+		};
+		0FCA5C0C25887A21005B4F0E /* BlePocTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA5C0D25887A21005B4F0E /* BlePocTests.swift */,
+				0FCA5C0F25887A21005B4F0E /* Info.plist */,
+			);
+			path = BlePocTests;
+			sourceTree = "<group>";
+		};
+		0FCA5C1725887A21005B4F0E /* BlePocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA5C1825887A21005B4F0E /* BlePocUITests.swift */,
+				0FCA5C1A25887A21005B4F0E /* Info.plist */,
+			);
+			path = BlePocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FCA5BF225887A1F005B4F0E /* BlePoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCA5C1D25887A21005B4F0E /* Build configuration list for PBXNativeTarget "BlePoc" */;
+			buildPhases = (
+				0FCA5BEF25887A1F005B4F0E /* Sources */,
+				0FCA5BF025887A1F005B4F0E /* Frameworks */,
+				0FCA5BF125887A1F005B4F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlePoc;
+			productName = BlePoc;
+			productReference = 0FCA5BF325887A1F005B4F0E /* BlePoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FCA5C0825887A21005B4F0E /* BlePocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCA5C2025887A21005B4F0E /* Build configuration list for PBXNativeTarget "BlePocTests" */;
+			buildPhases = (
+				0FCA5C0525887A21005B4F0E /* Sources */,
+				0FCA5C0625887A21005B4F0E /* Frameworks */,
+				0FCA5C0725887A21005B4F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FCA5C0B25887A21005B4F0E /* PBXTargetDependency */,
+			);
+			name = BlePocTests;
+			productName = BlePocTests;
+			productReference = 0FCA5C0925887A21005B4F0E /* BlePocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FCA5C1325887A21005B4F0E /* BlePocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCA5C2325887A21005B4F0E /* Build configuration list for PBXNativeTarget "BlePocUITests" */;
+			buildPhases = (
+				0FCA5C1025887A21005B4F0E /* Sources */,
+				0FCA5C1125887A21005B4F0E /* Frameworks */,
+				0FCA5C1225887A21005B4F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FCA5C1625887A21005B4F0E /* PBXTargetDependency */,
+			);
+			name = BlePocUITests;
+			productName = BlePocUITests;
+			productReference = 0FCA5C1425887A21005B4F0E /* BlePocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FCA5BEB25887A1F005B4F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = KTB;
+				TargetAttributes = {
+					0FCA5BF225887A1F005B4F0E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0FCA5C0825887A21005B4F0E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0FCA5BF225887A1F005B4F0E;
+					};
+					0FCA5C1325887A21005B4F0E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 0FCA5BF225887A1F005B4F0E;
+					};
+				};
+			};
+			buildConfigurationList = 0FCA5BEE25887A1F005B4F0E /* Build configuration list for PBXProject "BlePoc" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FCA5BEA25887A1F005B4F0E;
+			productRefGroup = 0FCA5BF425887A1F005B4F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FCA5BF225887A1F005B4F0E /* BlePoc */,
+				0FCA5C0825887A21005B4F0E /* BlePocTests */,
+				0FCA5C1325887A21005B4F0E /* BlePocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FCA5BF125887A1F005B4F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCA5C0325887A21005B4F0E /* LaunchScreen.storyboard in Resources */,
+				0FCA5C0025887A21005B4F0E /* Assets.xcassets in Resources */,
+				0FCA5BFE25887A1F005B4F0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCA5C0725887A21005B4F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCA5C1225887A21005B4F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FCA5BEF25887A1F005B4F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCA5BFB25887A1F005B4F0E /* ViewController.swift in Sources */,
+				0FCA5BF725887A1F005B4F0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCA5C0525887A21005B4F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCA5C0E25887A21005B4F0E /* BlePocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCA5C1025887A21005B4F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCA5C1925887A21005B4F0E /* BlePocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FCA5C0B25887A21005B4F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FCA5BF225887A1F005B4F0E /* BlePoc */;
+			targetProxy = 0FCA5C0A25887A21005B4F0E /* PBXContainerItemProxy */;
+		};
+		0FCA5C1625887A21005B4F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FCA5BF225887A1F005B4F0E /* BlePoc */;
+			targetProxy = 0FCA5C1525887A21005B4F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FCA5BFC25887A1F005B4F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FCA5BFD25887A1F005B4F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FCA5C0125887A21005B4F0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FCA5C0225887A21005B4F0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FCA5C1B25887A21005B4F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FCA5C1C25887A21005B4F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FCA5C1E25887A21005B4F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = BlePoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.BlePoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FCA5C1F25887A21005B4F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = BlePoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.BlePoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FCA5C2125887A21005B4F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = BlePocTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.BlePocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlePoc.app/BlePoc";
+			};
+			name = Debug;
+		};
+		0FCA5C2225887A21005B4F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = BlePocTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.BlePocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlePoc.app/BlePoc";
+			};
+			name = Release;
+		};
+		0FCA5C2425887A21005B4F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = BlePocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.BlePocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlePoc;
+			};
+			name = Debug;
+		};
+		0FCA5C2525887A21005B4F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2CXQAZL4J;
+				INFOPLIST_FILE = BlePocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mira.BlePocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlePoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FCA5BEE25887A1F005B4F0E /* Build configuration list for PBXProject "BlePoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCA5C1B25887A21005B4F0E /* Debug */,
+				0FCA5C1C25887A21005B4F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCA5C1D25887A21005B4F0E /* Build configuration list for PBXNativeTarget "BlePoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCA5C1E25887A21005B4F0E /* Debug */,
+				0FCA5C1F25887A21005B4F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCA5C2025887A21005B4F0E /* Build configuration list for PBXNativeTarget "BlePocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCA5C2125887A21005B4F0E /* Debug */,
+				0FCA5C2225887A21005B4F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCA5C2325887A21005B4F0E /* Build configuration list for PBXNativeTarget "BlePocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCA5C2425887A21005B4F0E /* Debug */,
+				0FCA5C2525887A21005B4F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FCA5BEB25887A1F005B4F0E /* Project object */;
+}
